@@ -1,0 +1,217 @@
+@import '@flaticon/flaticon-uicons/css/all/all.css';
+/* @import "~@flaticon/flaticon-uicons/css/all/all"; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff !important;
+  max-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+body, html, .App, #root, .auth-wrapper,.homepage {
+  width: 100%;
+  height: 95%;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  /* background: #a5d7dd; */
+  background: #aad7f8;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+/* .auth-wrapper .btn{
+  border-color: #167bff;
+  background: #3EA4F0;
+  color:white
+  } */
+  
+
+
+
+/* blue button  */
+form .bluebtn, .bluebtn {
+  border: 1px solid transparent;
+  background: #3EA4F0;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background 0.3s ease, color 0.3s ease;
+  outline: none;
+  
+}
+
+form .bluebtn:hover,.bluebtn:hover,
+form .bluebtn:focus,.bluebtn:focus,
+form .bluebtn:active,.bluebtn:active,
+form .bluebtn:focus-visible,.bluebtn:focus-visible {
+  border-color: #167bff;
+  background: #176eb1;
+  color: white;
+}
+
+
+/* red button  */
+form .redbtn, .redbtn {
+  border: 1px solid transparent;
+  background: #FF6D6D;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background 0.3s ease, color 0.3s ease;
+  outline: none;
+  
+}
+
+form .redbtn:hover,.redbtn:hover,
+form .redbtn:focus,.redbtn:focus,
+form .redbtn:active,.redbtn:active,
+form .redbtn:focus-visible,.redbtn:focus-visible {
+  border-color: #ff2323;
+  background: #ff3a3a;
+  color: white;
+}
+
+
+
+/* green button  */
+form .greenbtn, .greenbtn {
+  border: 1px solid transparent;
+  background: #75D672;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background 0.3s ease, color 0.3s ease;
+  outline: none;
+  
+}
+
+form .greenbtn:hover,.greenbtn:hover,
+form .greenbtn:focus,.greenbtn:focus,
+form .greenbtn:active,.greenbtn:active,
+form .greenbtn:focus-visible,.greenbtn:focus-visible {
+  border-color: #3bbc37;
+  background: #34a831;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+  /* .bluebtn:focus-visible {
+    outline: none;
+    // Remove default focus outline
+    box-shadow: 0 0 0 2px rgba(22, 123, 255, 0.5);
+    //Optional: Add custom focus outline
+  } */
+
+/* .forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+} */
+/* .forgot-password a {
+  color: #167bff;
+} */
+
+
+/* for Home and Textfield part  */
+
+.customtextfield{
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  background-color: #d1cece;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.customtextfield i {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+
+.home-button{
+  height: 5em;
+  width: 11em;
+}
+
+.textfieldouterpart{
+ margin: 0 20px ;
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 20px;
+  left: 5px;
+  margin:20px;
+}
+
+.top-right{
+  position: relative;
+  top: 5px;
+  right: 0px;
+  margin:2px;
+}
