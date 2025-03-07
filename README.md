@@ -112,7 +112,7 @@ git clone https://github.com/QaiserEjaz/washershub-webportal-ui.git
 cd washershub-webportal-ui
 ```
 ## 👥 Authors
-- **Syed Rafay Abrar** - *Initial work*- [Syed Rafay Abrar](https://github.com/SyedRafayAbrar)
+- **Syed Rafay Abrar** - *Guidance*- [Syed Rafay Abrar](https://github.com/SyedRafayAbrar)
 - **Qaiser Ejaz** - *Contributor* - 
 [QaiserEjaz](https://github.com/QaiserEjaz)
 
