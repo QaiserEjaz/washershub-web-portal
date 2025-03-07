@@ -117,7 +117,7 @@ cd washershub-webportal-ui
 [QaiserEjaz](https://github.com/QaiserEjaz)
 
 ## 🙏 Acknowledgments
-- Create React App
+- Vite
 - Bootstrap Team
 - React Router Team
 - Flaticon
