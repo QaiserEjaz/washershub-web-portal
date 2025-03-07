@@ -19,5 +19,10 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.1.4"
+  },
+  "homepage": "https://QaiserEjaz.github.io/washershub-web-portal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QaiserEjaz/washershub-web-portal.git"
   }
 }
